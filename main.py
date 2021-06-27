@@ -15,7 +15,7 @@ def get_current_date():
 
 def get_chsb_circulating_supply_data():
     """
-    returns a dict with the 4 items from H2: "A breakdown of CHSB circulating supply" part of the page
+    returns a dict with the 4 items from H2: "A breakdown of CHSB circulating supply" part of the chsb overview page
     """
     response = requests.get(SWISSBORG_URL)
     soup = BeautifulSoup(response.content, features="html.parser")
