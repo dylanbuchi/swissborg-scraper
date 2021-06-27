@@ -1,5 +1,4 @@
 import requests
-import os
 
 from classes.file_manager import FileManager
 
