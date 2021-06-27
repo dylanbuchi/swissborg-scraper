@@ -1,16 +1,13 @@
 import requests
 import os
-import datetime
+
+from classes.file_manager import FileManager
 
 from bs4 import BeautifulSoup
 
 SWISSBORG_URL = "https://swissborg.com/chsb-overview"
 
 CHSB_CIRCULATING_SUPPLY_DATA_FILE_PATH = './data/chsb_circulating_supply_data.txt'
-
-
-def get_current_date():
-    return datetime.datetime.now().isoformat(timespec='seconds', sep=' ')
 
 
 def get_chsb_circulating_supply_data():
@@ -40,24 +37,11 @@ def get_chsb_circulating_supply_data():
     return data
 
 
-def write_data_to_file(filepath: str, data: dict):
-    with open(filepath, 'a') as data_file:
-        if not os.stat(filepath).st_size == 0:
-            data_file.write("\n")
-        data_file.write(f"{get_current_date()}\n\n")
-
-        for name, value in data.items():
-            data_file.write(f"{name}: {value}\n")
-
-        data_file.write("-" * 100)
-        data_file.write("\n")
-
-
 def main():
-    chsb_circulating_supply_data = get_chsb_circulating_supply_data()
+    file_manager = FileManager(filepath=CHSB_CIRCULATING_SUPPLY_DATA_FILE_PATH)
 
-    write_data_to_file(CHSB_CIRCULATING_SUPPLY_DATA_FILE_PATH,
-                       chsb_circulating_supply_data)
+    chsb_circulating_supply_data = get_chsb_circulating_supply_data()
+    file_manager.write_data_to_file(chsb_circulating_supply_data)
 
 
 if __name__ == "__main__":
