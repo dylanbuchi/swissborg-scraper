@@ -14,14 +14,19 @@ class FileManager():
     def is_file_empty(self):
         return os.stat(self.filepath).st_size == 0
 
-    def write_data_to_file(self, data: dict):
+    def write_data_to_file(self, data: dict, title: str):
         with open(self.filepath, 'a') as data_file:
             if not self.is_file_empty():
-                data_file.write("\n")
+                self._write_new_line(data_file)
 
-            self._write_current_date_to_file(data_file)
+            self._write_new_line(data_file)
+
+            data_file.write(f"{title.upper()}:\n\n")
 
             for name, value in data.items():
+                name = self._camel_case_to_human_readable(name)
+                value = self._set_correct_data_values(name, value)
+
                 data_file.write(f"{name}: {value}\n")
 
             self._draw_a_line(file=data_file, line_length=100)
@@ -30,8 +35,9 @@ class FileManager():
     def get_current_date(self):
         return datetime.datetime.now().isoformat(timespec='seconds', sep=' ')
 
-    def _write_current_date_to_file(self, file: TextIOWrapper):
-        file.write((f"{self.get_current_date()}\n\n"))
+    def write_current_date_to_file(self):
+        with open(self.filepath, 'a') as data_file:
+            data_file.write((f"{self.get_current_date()}\n\n"))
 
     def _draw_a_line(self, file: TextIOWrapper, line_length: int):
         file.write("-" * line_length)
@@ -64,6 +70,32 @@ class FileManager():
         if not os.path.exists(self.filepath) or self.filename == '':
             raise FileNotFoundError()
         return True
+
+    def _camel_case_to_human_readable(self, string: str):
+        result = []
+
+        index = 0
+
+        while (index < len(string)):
+            if string[index].isupper():
+                upper_letters = []
+                result.append(" ")
+                while (index < len(string) and string[index].isupper()):
+                    upper_letters.append(string[index])
+                    index += 1
+                result.append(''.join(upper_letters))
+            else:
+                result.append(string[index])
+                index += 1
+
+        return ''.join(result).title()
+
+    def _set_correct_data_values(self, name: str, value: str):
+        value = f"{float(value):.2f}"
+        if "percentage" in name.lower():
+            return f"{value}%"
+        else:
+            return value
 
 
 if __name__ == "__main__":
