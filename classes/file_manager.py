@@ -92,7 +92,9 @@ class FileManager():
         return ''.join(result).title()
 
     def _set_correct_data_values(self, name: str, value: str):
-        value = f"{float(value):.2f}"
+
+        value = self.replace_trailing_zeros_from(f"{float(value):,.2f}")
+
         if "percentage" in name.lower():
             return f"{value}%"
         else:
@@ -103,6 +105,11 @@ class FileManager():
         if len(parts[0]) < 5:
             parts[0] = parts[0].upper()
         return ' '.join(parts)
+
+    def replace_trailing_zeros_from(self, string: str):
+        if '.00' in string[-3:]:
+            string = string.replace('.00', '')
+        return string
 
 
 if __name__ == "__main__":
