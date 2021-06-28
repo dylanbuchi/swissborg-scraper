@@ -1,83 +1,83 @@
-2021-06-28 02:43:10
+2021-06-28 03:19:20
 
 
 
 CHSB:
 
-Chsb Price Usd: 0.48
-Chsb Price24H Change Percentage: -1.72%
-Chsb Circulating Supply Tokens: 214793911.00
-Chsb Yield Apy: 9.47
-Chsb Yield Users Count: 53368.00
-Chsb Yield Pledged Tokens: 317807742.00
-Chsb In Yield Percentage: 45.13%
-Chsb Yield Pledged Usd: 154073193.40
-Chsb Stacked Tokens: 164773400.00
-Chsb To Burn Usd: 608035.63
-Chsb Burned Tokens: 6828714.29
-Chsb Stacked Percentage: 23.40%
-Chsb Highest Yield Percentage: 10.50%
-Chsb Current Premium Yield Percentage: 9.47%
-Chsb Current Standard Yield Percentage: 4.74%
-Chsb Average Yield Percentage: 9.20%
-Chsb To Burn Tokens: 1260138.19
-Chsb Stacked Usd: 79505643.00
-Chsb Burned Usd: 3294957.00
+CHSB Price Usd: 0.48
+CHSB Price24H Change Percentage: -1.72%
+CHSB Circulating Supply Tokens: 214793911.00
+CHSB Yield Apy: 9.47
+CHSB Yield Users Count: 53368.00
+CHSB Yield Pledged Tokens: 317807742.00
+CHSB In Yield Percentage: 45.13%
+CHSB Yield Pledged Usd: 154073193.40
+CHSB Stacked Tokens: 164773400.00
+CHSB To Burn Usd: 608035.63
+CHSB Burned Tokens: 6828714.29
+CHSB Stacked Percentage: 23.40%
+CHSB Highest Yield Percentage: 10.50%
+CHSB Current Premium Yield Percentage: 9.47%
+CHSB Current Standard Yield Percentage: 4.74%
+CHSB Average Yield Percentage: 9.20%
+CHSB To Burn Tokens: 1260138.19
+CHSB Stacked Usd: 79505643.00
+CHSB Burned Usd: 3294957.00
 ----------------------------------------------------------------------------------------------------
 
 
 BTC:
 
-Btc Yield Users Count: 23773.00
-Btc Yield Pledged Usd: 138376059.02
-Btc Highest Yield Percentage: 9.00%
-Btc Current Premium Yield Percentage: 4.25%
-Btc Current Standard Yield Percentage: 2.12%
-Btc Average Yield Percentage: 5.28%
+BTC Yield Users Count: 23773.00
+BTC Yield Pledged Usd: 138376059.02
+BTC Highest Yield Percentage: 9.00%
+BTC Current Premium Yield Percentage: 4.25%
+BTC Current Standard Yield Percentage: 2.12%
+BTC Average Yield Percentage: 5.28%
 ----------------------------------------------------------------------------------------------------
 
 
 ETH:
 
-Eth Yield Users Count: 33622.00
-Eth Yield Pledged Usd: 182991159.27
-Eth Highest Yield Percentage: 18.03%
-Eth Current Premium Yield Percentage: 4.50%
-Eth Current Standard Yield Percentage: 2.25%
-Eth Average Yield Percentage: 6.62%
+ETH Yield Users Count: 33622.00
+ETH Yield Pledged Usd: 182991159.27
+ETH Highest Yield Percentage: 18.03%
+ETH Current Premium Yield Percentage: 4.50%
+ETH Current Standard Yield Percentage: 2.25%
+ETH Average Yield Percentage: 6.62%
 ----------------------------------------------------------------------------------------------------
 
 
 BNB:
 
-Bnb Current Premium Yield Percentage: 7.50%
-Bnb Highest Yield Percentage: 10.50%
-Bnb Current Standard Yield Percentage: 3.75%
-Bnb Average Yield Percentage: 9.45%
-Bnb Yield Pledged Usd: 10045844.70
-Bnb Yield Users Count: 7311.00
+BNB Current Premium Yield Percentage: 7.50%
+BNB Highest Yield Percentage: 10.50%
+BNB Current Standard Yield Percentage: 3.75%
+BNB Average Yield Percentage: 9.45%
+BNB Yield Pledged Usd: 10045844.70
+BNB Yield Users Count: 7311.00
 ----------------------------------------------------------------------------------------------------
 
 
 USDC:
 
-Usdc Yield Users Count: 16304.00
-Usdc Yield Pledged Usd: 209999306.96
-Usdc Highest Yield Percentage: 37.55%
-Usdc Current Premium Yield Percentage: 8.00%
-Usdc Current Standard Yield Percentage: 4.00%
-Usdc Average Yield Percentage: 14.12%
+USDC Yield Users Count: 16304.00
+USDC Yield Pledged Usd: 209999306.96
+USDC Highest Yield Percentage: 37.55%
+USDC Current Premium Yield Percentage: 8.00%
+USDC Current Standard Yield Percentage: 4.00%
+USDC Average Yield Percentage: 14.12%
 ----------------------------------------------------------------------------------------------------
 
 
 USDT:
 
-Usdt Current Premium Yield Percentage: 8.00%
-Usdt Highest Yield Percentage: 8.00%
-Usdt Current Standard Yield Percentage: 4.00%
-Usdt Average Yield Percentage: 8.00%
-Usdt Yield Pledged Usd: 659333.78
-Usdt Yield Users Count: 239.00
+USDT Current Premium Yield Percentage: 8.00%
+USDT Highest Yield Percentage: 8.00%
+USDT Current Standard Yield Percentage: 4.00%
+USDT Average Yield Percentage: 8.00%
+USDT Yield Pledged Usd: 659333.78
+USDT Yield Users Count: 239.00
 ----------------------------------------------------------------------------------------------------
 
 
