@@ -2,45 +2,57 @@ import requests
 
 from classes.file_manager import FileManager
 
-from bs4 import BeautifulSoup
+SWISSBORG_URL = "https://swissborg-api-proxy.swissborg-stage.workers.dev/chsb-v2"
 
-SWISSBORG_URL = "https://swissborg.com/chsb-overview"
-
-CHSB_CIRCULATING_SUPPLY_DATA_FILE_PATH = './data/chsb_circulating_supply_data.txt'
+DATA_FILE_PATH = './data/data.txt'
 
 
-def get_chsb_circulating_supply_data():
+def filter_data_by_key(data: dict, name: str):
+    return dict(filter(lambda x: name in x[0], data.items()))
+
+
+def get_list_of_data():
     """
-    returns a dict with the 4 items from H2: "A breakdown of CHSB circulating supply" part of the chsb overview page
+    returns a list with tuples (the data: dict, the data name: string )
     """
     response = requests.get(SWISSBORG_URL)
-    soup = BeautifulSoup(response.content, features="html.parser")
 
-    div_container_name = "unwzr5-0 gOLdjf"
-    div_containers = soup.find_all("div", class_=div_container_name)
+    data = response.json()
 
-    data = {}
+    chsb_data = filter_data_by_key(data, 'chsb')
+    btc_data = filter_data_by_key(data, 'btc')
+    eth_data = filter_data_by_key(data, 'eth')
+    bnb_data = filter_data_by_key(data, 'bnb')
+    usdc_data = filter_data_by_key(data, 'usdc')
+    usdt_data = filter_data_by_key(data, 'usdt')
 
-    for div in div_containers:
-        p_list = div.find_all("p")
+    others_data = dict(
+        filter(
+            lambda x: not any(word in x[0] for word in [
+                'btc', 'usdc', 'usdt', 'chsb', 'transactions', 'eth', 'bnb',
+                'SchedulerRunDateTime', 'timestamp'
+            ]), data.items()))
 
-        if len(p_list) > 2:
-            value, value_description, name = p_list
-            long_value = f"{value.text} {value_description.text}"
-
-            data[name.text] = long_value
-        else:
-            value, name = p_list
-            data[name.text] = value.text
-
-    return data
+    data_list = [
+        (chsb_data, "chsb"),
+        (btc_data, "btc"),
+        (eth_data, "eth"),
+        (bnb_data, "bnb"),
+        (usdc_data, "usdc"),
+        (usdt_data, "usdt"),
+        (others_data, "others"),
+    ]
+    return data_list
 
 
 def main():
-    file_manager = FileManager(filepath=CHSB_CIRCULATING_SUPPLY_DATA_FILE_PATH)
 
-    chsb_circulating_supply_data = get_chsb_circulating_supply_data()
-    file_manager.write_data_to_file(chsb_circulating_supply_data)
+    file_manager = FileManager(filepath=DATA_FILE_PATH)
+    file_manager.write_current_date_to_file()
+
+    for tuple_data in get_list_of_data():
+        data, name = tuple_data
+        file_manager.write_data_to_file(data, name)
 
 
 if __name__ == "__main__":
