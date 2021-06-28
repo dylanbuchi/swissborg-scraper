@@ -1,0 +1,59 @@
+2021-06-28 02:23:39
+
+
+
+BTC:
+
+Btc Yield Users Count: 23773.00
+Btc Yield Pledged Usd: 138271946.05
+Btc Highest Yield Percentage: 9.00%
+Btc Current Premium Yield Percentage: 4.25%
+Btc Current Standard Yield Percentage: 2.12%
+Btc Average Yield Percentage: 5.28%
+----------------------------------------------------------------------------------------------------
+
+
+USDC:
+
+Usdc Yield Users Count: 16304.00
+Usdc Yield Pledged Usd: 210008709.19
+Usdc Highest Yield Percentage: 37.55%
+Usdc Current Premium Yield Percentage: 8.00%
+Usdc Current Standard Yield Percentage: 4.00%
+Usdc Average Yield Percentage: 14.12%
+----------------------------------------------------------------------------------------------------
+
+
+USDT:
+
+Usdt Current Premium Yield Percentage: 8.00%
+Usdt Highest Yield Percentage: 8.00%
+Usdt Current Standard Yield Percentage: 4.00%
+Usdt Average Yield Percentage: 8.00%
+Usdt Yield Pledged Usd: 659333.78
+Usdt Yield Users Count: 239.00
+----------------------------------------------------------------------------------------------------
+
+
+CHSB:
+
+Chsb Price Usd: 0.48
+Chsb Price24H Change Percentage: -0.96%
+Chsb Circulating Supply Tokens: 214832906.00
+Chsb Yield Apy: 9.47
+Chsb Yield Users Count: 53368.00
+Chsb Yield Pledged Tokens: 317770747.00
+Chsb In Yield Percentage: 45.12%
+Chsb Yield Pledged Usd: 153515047.96
+Chsb Stacked Tokens: 164771400.00
+Chsb To Burn Usd: 607813.96
+Chsb Burned Tokens: 6828714.29
+Chsb Stacked Percentage: 23.40%
+Chsb Highest Yield Percentage: 10.50%
+Chsb Current Premium Yield Percentage: 9.47%
+Chsb Current Standard Yield Percentage: 4.74%
+Chsb Average Yield Percentage: 9.20%
+Chsb To Burn Tokens: 1255228.93
+Chsb Stacked Usd: 79786527.00
+Chsb Burned Usd: 3306638.00
+----------------------------------------------------------------------------------------------------
