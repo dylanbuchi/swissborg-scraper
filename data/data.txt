@@ -1,36 +1,36 @@
-2021-06-28 03:19:20
+2021-06-28 03:43:02
 
 
 
 CHSB:
 
 CHSB Price Usd: 0.48
-CHSB Price24H Change Percentage: -1.72%
-CHSB Circulating Supply Tokens: 214793911.00
+CHSB Price24H Change Percentage: -1.19%
+CHSB Circulating Supply Tokens: 214,749,856
 CHSB Yield Apy: 9.47
-CHSB Yield Users Count: 53368.00
-CHSB Yield Pledged Tokens: 317807742.00
-CHSB In Yield Percentage: 45.13%
-CHSB Yield Pledged Usd: 154073193.40
-CHSB Stacked Tokens: 164773400.00
-CHSB To Burn Usd: 608035.63
-CHSB Burned Tokens: 6828714.29
+CHSB Yield Users Count: 53,368
+CHSB Yield Pledged Tokens: 317,851,797
+CHSB In Yield Percentage: 45.14%
+CHSB Yield Pledged Usd: 156,700,936.25
+CHSB Stacked Tokens: 164,773,400
+CHSB To Burn Usd: 608,293.98
+CHSB Burned Tokens: 6,828,714.29
 CHSB Stacked Percentage: 23.40%
 CHSB Highest Yield Percentage: 10.50%
 CHSB Current Premium Yield Percentage: 9.47%
 CHSB Current Standard Yield Percentage: 4.74%
 CHSB Average Yield Percentage: 9.20%
-CHSB To Burn Tokens: 1260138.19
-CHSB Stacked Usd: 79505643.00
-CHSB Burned Usd: 3294957.00
+CHSB To Burn Tokens: 1,257,472.18
+CHSB Stacked Usd: 79,708,059
+CHSB Burned Usd: 3,303,346
 ----------------------------------------------------------------------------------------------------
 
 
 BTC:
 
-BTC Yield Users Count: 23773.00
-BTC Yield Pledged Usd: 138376059.02
-BTC Highest Yield Percentage: 9.00%
+BTC Yield Users Count: 23,773
+BTC Yield Pledged Usd: 138,656,230.29
+BTC Highest Yield Percentage: 9%
 BTC Current Premium Yield Percentage: 4.25%
 BTC Current Standard Yield Percentage: 2.12%
 BTC Average Yield Percentage: 5.28%
@@ -39,8 +39,8 @@ BTC Average Yield Percentage: 5.28%
 
 ETH:
 
-ETH Yield Users Count: 33622.00
-ETH Yield Pledged Usd: 182991159.27
+ETH Yield Users Count: 33,622
+ETH Yield Pledged Usd: 182,790,661.96
 ETH Highest Yield Percentage: 18.03%
 ETH Current Premium Yield Percentage: 4.50%
 ETH Current Standard Yield Percentage: 2.25%
@@ -54,42 +54,42 @@ BNB Current Premium Yield Percentage: 7.50%
 BNB Highest Yield Percentage: 10.50%
 BNB Current Standard Yield Percentage: 3.75%
 BNB Average Yield Percentage: 9.45%
-BNB Yield Pledged Usd: 10045844.70
-BNB Yield Users Count: 7311.00
+BNB Yield Pledged Usd: 10,074,569.40
+BNB Yield Users Count: 7,311
 ----------------------------------------------------------------------------------------------------
 
 
 USDC:
 
-USDC Yield Users Count: 16304.00
-USDC Yield Pledged Usd: 209999306.96
+USDC Yield Users Count: 16,304
+USDC Yield Pledged Usd: 209,547,498.74
 USDC Highest Yield Percentage: 37.55%
-USDC Current Premium Yield Percentage: 8.00%
-USDC Current Standard Yield Percentage: 4.00%
+USDC Current Premium Yield Percentage: 8%
+USDC Current Standard Yield Percentage: 4%
 USDC Average Yield Percentage: 14.12%
 ----------------------------------------------------------------------------------------------------
 
 
 USDT:
 
-USDT Current Premium Yield Percentage: 8.00%
-USDT Highest Yield Percentage: 8.00%
-USDT Current Standard Yield Percentage: 4.00%
-USDT Average Yield Percentage: 8.00%
-USDT Yield Pledged Usd: 659333.78
-USDT Yield Users Count: 239.00
+USDT Current Premium Yield Percentage: 8%
+USDT Highest Yield Percentage: 8%
+USDT Current Standard Yield Percentage: 4%
+USDT Average Yield Percentage: 8%
+USDT Yield Pledged Usd: 659,561.89
+USDT Yield Users Count: 239
 ----------------------------------------------------------------------------------------------------
 
 
 OTHERS:
 
-Weekly Volume Usd: 169299002.00
-Total Yield Pledged Usd: 696144897.12
-Total Aum Usd: 1062659969.00
-Premium Users Count: 15306.00
-Premium Users Last Week Count: 693.00
-Verified Users Count: 419943.00
+Weekly Volume Usd: 168,291,888
+Total Yield Pledged Usd: 698,429,458.53
+Total Aum Usd: 1,060,752,098
+Premium Users Count: 15,306
+Premium Users Last Week Count: 688
+Verified Users Count: 419,948
 Onboarding Median Time Minutes: 1.92
 Total Supply Burned Percentage: 0.97%
-Community Premium Users Count: 9837.00
+Community Premium Users Count: 9,837
 ----------------------------------------------------------------------------------------------------
