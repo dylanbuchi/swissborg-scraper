@@ -24,7 +24,8 @@ class FileManager():
             data_file.write(f"{title.upper()}:\n\n")
 
             for name, value in data.items():
-                name = self._camel_case_to_human_readable(name)
+                name = self._upper_first_word(
+                    self._camel_case_to_human_readable(name))
                 value = self._set_correct_data_values(name, value)
 
                 data_file.write(f"{name}: {value}\n")
@@ -96,6 +97,12 @@ class FileManager():
             return f"{value}%"
         else:
             return value
+
+    def _upper_first_word(self, string: str):
+        parts = string.split()
+        if len(parts[0]) < 5:
+            parts[0] = parts[0].upper()
+        return ' '.join(parts)
 
 
 if __name__ == "__main__":
