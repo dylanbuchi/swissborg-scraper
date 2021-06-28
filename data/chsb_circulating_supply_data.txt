@@ -1,7 +1,0 @@
-2021-06-27 03:08:10
-
-Remaining circulating supply: 231,561,033
-CHSB staked: 136,905,000 (19.44% of Circulating supply)
-CHSB in Yield Program: 330,838,817 (46.98% of Circulating supply)
-Circulating supply burned: 4,898,917.07
-----------------------------------------------------------------------------------------------------
