@@ -1,6 +1,7 @@
 import requests
 
 from classes.file_manager import FileManager
+from classes.crypto import Crypto
 
 SWISSBORG_URL = "https://swissborg-api-proxy.swissborg-stage.workers.dev/chsb-v2"
 
@@ -11,6 +12,25 @@ def filter_data_by_key(data: dict, name: str):
     return dict(filter(lambda x: name in x[0], data.items()))
 
 
+def create_data_list_from(data: dict):
+    data_names = Crypto.crypto_names_list
+    exclude_items = ['transactions', 'SchedulerRunDateTime', 'timestamp']
+
+    data_list = []
+
+    for name in data_names:
+        data_list.append((filter_data_by_key(data, name), name))
+
+    others_data = dict(
+        filter(
+            lambda x: not any(word in x[0]
+                              for word in data_names + exclude_items),
+            data.items()))
+
+    data_list.append((others_data, "others"))
+    return data_list
+
+
 def get_list_of_data():
     """
     returns a list with tuples (the data: dict, the data name: string )
@@ -19,30 +39,7 @@ def get_list_of_data():
 
     data = response.json()
 
-    chsb_data = filter_data_by_key(data, 'chsb')
-    btc_data = filter_data_by_key(data, 'btc')
-    eth_data = filter_data_by_key(data, 'eth')
-    bnb_data = filter_data_by_key(data, 'bnb')
-    usdc_data = filter_data_by_key(data, 'usdc')
-    usdt_data = filter_data_by_key(data, 'usdt')
-
-    others_data = dict(
-        filter(
-            lambda x: not any(word in x[0] for word in [
-                'btc', 'usdc', 'usdt', 'chsb', 'transactions', 'eth', 'bnb',
-                'SchedulerRunDateTime', 'timestamp'
-            ]), data.items()))
-
-    data_list = [
-        (chsb_data, "chsb"),
-        (btc_data, "btc"),
-        (eth_data, "eth"),
-        (bnb_data, "bnb"),
-        (usdc_data, "usdc"),
-        (usdt_data, "usdt"),
-        (others_data, "others"),
-    ]
-    return data_list
+    return create_data_list_from(data)
 
 
 def main():
