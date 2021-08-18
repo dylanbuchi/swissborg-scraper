@@ -30,7 +30,7 @@ class FileManager():
 
                 data_file.write(f"{name}: {value}\n")
 
-            self._draw_a_line(file=data_file, line_length=100)
+            self._draw_line(file=data_file, line_length=100)
             self._write_new_line(data_file)
 
     def get_current_date(self):
@@ -40,7 +40,7 @@ class FileManager():
         with open(self.filepath, 'a') as data_file:
             data_file.write((f"{self.get_current_date()}\n\n"))
 
-    def _draw_a_line(self, file: TextIOWrapper, line_length: int):
+    def _draw_line(self, file: TextIOWrapper, line_length: int):
         file.write("-" * line_length)
 
     def _write_new_line(self, file: TextIOWrapper):
@@ -48,7 +48,6 @@ class FileManager():
 
     def _get_negative_index_to_get_name_from(self, path):
         index = path[::-1].find("/")
-
         return -index
 
     def get_filename(self):
@@ -60,12 +59,10 @@ class FileManager():
 
     def get_folder_name(self):
         folder_path = str(os.path.dirname(self.filepath))
-
         if (folder_path == '.'):
             return './'
-        else:
-            index = self._get_negative_index_to_get_name_from(folder_path)
-            return folder_path[index:]
+        index = self._get_negative_index_to_get_name_from(folder_path)
+        return folder_path[index:]
 
     def check_path_exists(self):
         if not os.path.exists(self.filepath) or self.filename == '':
@@ -110,7 +107,3 @@ class FileManager():
         if '.00' in string[-3:]:
             string = string.replace('.00', '')
         return string
-
-
-if __name__ == "__main__":
-    ...
