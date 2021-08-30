@@ -16,16 +16,14 @@ def create_data_list_from(data: dict):
     data_names = Crypto.crypto_names_list
     exclude_items = ['transactions', 'SchedulerRunDateTime', 'timestamp']
 
-    data_list = []
-
-    for name in data_names:
-        data_list.append((filter_data_by_key(data, name), name))
+    data_list = [(filter_data_by_key(data, name), name) for name in data_names]
 
     others_data = dict(
         filter(
-            lambda x: not any(word in x[0]
-                              for word in data_names + exclude_items),
-            data.items()))
+            lambda x: all(word not in x[0]
+                          for word in data_names + exclude_items),
+            data.items(),
+        ))
 
     data_list.append((others_data, "others"))
     return data_list
