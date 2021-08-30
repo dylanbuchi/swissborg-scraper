@@ -1,106 +1,108 @@
-2021-07-07 11:53:55
+2021-08-30 11:10:30
 
 
 
 CHSB:
 
-CHSB Price Usd: 0.67
-CHSB Price24H Change Percentage: 3.72%
-CHSB Circulating Supply Tokens: 201,979,204
-CHSB Yield Apy: 8.92
-CHSB Yield Users Count: 55,392
-CHSB Yield Pledged Tokens: 328,884,849
-CHSB In Yield Percentage: 46.70%
-CHSB Yield Pledged Usd: 219,004,421.30
-CHSB Stacked Tokens: 166,511,000
-CHSB To Burn Usd: 699,757.39
+CHSB Price Usd: 0.86
+CHSB Price24H Change Percentage: -4.82%
+CHSB Circulating Supply Tokens: 182,815,372
+CHSB Yield Apy: 10.36
+CHSB Yield Users Count: 60,309
+CHSB Yield Pledged Tokens: 341,918,225
+CHSB In Yield Percentage: 48.55%
+CHSB Yield Pledged Usd: 287,792,570.46
+CHSB Stacked Tokens: 172,641,456
+CHSB To Burn Usd: 1,428,759.97
 CHSB Burned Tokens: 6,828,714.29
-CHSB Stacked Percentage: 23.65%
+CHSB Stacked Percentage: 24.52%
 CHSB Highest Yield Percentage: 10.50%
-CHSB Current Premium Yield Percentage: 8.92%
-CHSB Current Standard Yield Percentage: 4.46%
-CHSB Average Yield Percentage: 9.28%
-CHSB To Burn Tokens: 1,044,275.40
-CHSB Stacked Usd: 111,577,178
-CHSB Burned Usd: 4,575,845
+CHSB Current Premium Yield Percentage: 10.36%
+CHSB Current Standard Yield Percentage: 5.18%
+CHSB Average Yield Percentage: 9.27%
+CHSB To Burn Tokens: 1,670,680.43
+CHSB Stacked Usd: 147,642,360
+CHSB Burned Usd: 5,839,892
 ----------------------------------------------------------------------------------------------------
 
 
 BTC:
 
-BTC Yield Users Count: 25,197
-BTC Yield Pledged Usd: 148,130,669.44
+BTC Yield Users Count: 27,668
+BTC Yield Pledged Usd: 216,211,623.68
 BTC Highest Yield Percentage: 9%
-BTC Current Premium Yield Percentage: 4.50%
-BTC Current Standard Yield Percentage: 2.25%
-BTC Average Yield Percentage: 4.81%
+BTC Current Premium Yield Percentage: 2.75%
+BTC Current Standard Yield Percentage: 1.38%
+BTC Average Yield Percentage: 3.26%
 ----------------------------------------------------------------------------------------------------
 
 
 ETH:
 
-ETH Yield Users Count: 35,104
-ETH Yield Pledged Usd: 224,465,595.23
+ETH Yield Users Count: 36,966
+ETH Yield Pledged Usd: 314,412,254.95
 ETH Highest Yield Percentage: 18.03%
-ETH Current Premium Yield Percentage: 4.70%
-ETH Current Standard Yield Percentage: 2.35%
-ETH Average Yield Percentage: 5.65%
+ETH Current Premium Yield Percentage: 4.25%
+ETH Current Standard Yield Percentage: 2.12%
+ETH Average Yield Percentage: 4.56%
 ----------------------------------------------------------------------------------------------------
 
 
 BNB:
 
-BNB Current Premium Yield Percentage: 7.75%
+BNB Current Premium Yield Percentage: 4%
 BNB Highest Yield Percentage: 10.50%
-BNB Current Standard Yield Percentage: 3.88%
-BNB Average Yield Percentage: 8.77%
-BNB Yield Pledged Usd: 12,719,504.20
-BNB Yield Users Count: 8,021
+BNB Current Standard Yield Percentage: 2%
+BNB Average Yield Percentage: 6.19%
+BNB Yield Pledged Usd: 19,380,840.19
+BNB Yield Users Count: 8,825
 ----------------------------------------------------------------------------------------------------
 
 
 USDC:
 
-USDC Yield Users Count: 16,995
-USDC Yield Pledged Usd: 203,967,929.83
+USDC Yield Users Count: 15,403
+USDC Yield Pledged Usd: 174,197,724.33
 USDC Highest Yield Percentage: 37.55%
-USDC Current Premium Yield Percentage: 8.75%
-USDC Current Standard Yield Percentage: 4.38%
-USDC Average Yield Percentage: 11.73%
+USDC Current Premium Yield Percentage: 7.50%
+USDC Current Standard Yield Percentage: 3.75%
+USDC Average Yield Percentage: 8.10%
 ----------------------------------------------------------------------------------------------------
 
 
 USDT:
 
-USDT Current Premium Yield Percentage: 8.75%
-USDT Highest Yield Percentage: 8.75%
-USDT Current Standard Yield Percentage: 4.38%
+USDT Current Premium Yield Percentage: 7.50%
+USDT Highest Yield Percentage: 10%
+USDT Current Standard Yield Percentage: 3.75%
 USDT Average Yield Percentage: 8.10%
-USDT Yield Pledged Usd: 2,435,025.45
-USDT Yield Users Count: 691
+USDT Yield Pledged Usd: 6,210,627.12
+USDT Yield Users Count: 1,568
 ----------------------------------------------------------------------------------------------------
 
 
 XRP:
 
-XRP Yield Pledged Usd: 6,273,713.27
-XRP Current Premium Yield Percentage: 4%
-XRP Highest Yield Percentage: 4%
-XRP Current Standard Yield Percentage: 2%
-XRP Average Yield Percentage: 4%
-XRP Yield Users Count: 2,874
+XRP Yield Pledged Usd: 20,361,672.30
+XRP Current Premium Yield Percentage: 1.50%
+XRP Highest Yield Percentage: 4.25%
+XRP Current Standard Yield Percentage: 0.75%
+XRP Average Yield Percentage: 2.21%
+XRP Yield Users Count: 5,496
 ----------------------------------------------------------------------------------------------------
 
 
 OTHERS:
 
-Weekly Volume Usd: 78,513,796
-Total Yield Pledged Usd: 816,996,858.72
-Total Aum Usd: 1,245,716,219
-Premium Users Count: 15,918
-Premium Users Last Week Count: 448
-Verified Users Count: 424,868
+Weekly Volume Usd: 134,663,859
+Total Yield Pledged Usd: 1,038,567,313.02
+Total Aum Usd: 1,664,162,988
+Premium Users Count: 19,442
+Premium Users Last Week Count: 706
+Verified Users Count: 462,198
 Onboarding Median Time Minutes: 1.92
 Total Supply Burned Percentage: 0.97%
-Community Premium Users Count: 10,429
+Community Premium Users Count: 13,891
+Total Yield Earned Usd: 27,586,208.24
+Total Safety Net Usd: 6,236,572.95
 ----------------------------------------------------------------------------------------------------
