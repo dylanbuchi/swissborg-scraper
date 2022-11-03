@@ -1,6 +1,6 @@
 # swissborg-scraper
 
-A web scraper project to scrap data from the SwissBorg website using Python with requests.
+Scrap crypto data from the SwissBorg website using Python.
 
 ---
 
@@ -17,28 +17,32 @@ git clone https://github.com/dylanbuchi/swissborg-scraper.git
 ```bash
 cd swissborg-scraper/
 ```
+**3**. Install Pipenv:
 
-**3**. Install the dependencies:
+```bash
+pip install pipenv
+```
+
+**4**. Install the dependencies:
 
 ```bash
 pipenv install
 ```
 
-**4**. Activate the virtual environment:
+**5**. Activate the virtual environment:
 
 ```bash
 pipenv shell
 ```
 
-**5**. Run the script:
+**6**. Run the script:
 
 ```bash
-python3 main.py
+python main.py
 ```
 
 ---
 
 ## Author
 
--   Website - [Dylan Buchi](https://dylanbuchi.pythonanywhere.com/)
--   Twitter - [@dylanbuchi](https://www.twitter.com/dylanbuchi)
+-   Website - [Dylan Buchi](https://dylanbuchi.com/)
