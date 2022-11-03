@@ -1,108 +1,340 @@
-2021-08-30 11:10:30
+2022-11-03 06:09:46
 
 
 
-CHSB:
+BNT:
 
-CHSB Price Usd: 0.86
-CHSB Price24H Change Percentage: -4.82%
-CHSB Circulating Supply Tokens: 182,815,372
-CHSB Yield Apy: 10.36
-CHSB Yield Users Count: 60,309
-CHSB Yield Pledged Tokens: 341,918,225
-CHSB In Yield Percentage: 48.55%
-CHSB Yield Pledged Usd: 287,792,570.46
-CHSB Stacked Tokens: 172,641,456
-CHSB To Burn Usd: 1,428,759.97
-CHSB Burned Tokens: 6,828,714.29
-CHSB Stacked Percentage: 24.52%
-CHSB Highest Yield Percentage: 10.50%
-CHSB Current Premium Yield Percentage: 10.36%
-CHSB Current Standard Yield Percentage: 5.18%
-CHSB Average Yield Percentage: 9.27%
-CHSB To Burn Tokens: 1,670,680.43
-CHSB Stacked Usd: 147,642,360
-CHSB Burned Usd: 5,839,892
+BNT Current Premium Yield Percentage: 1.30%
+BNT Highest Yield Percentage: 35%
+BNT Current Standard Yield Percentage: 0.65%
+BNT Average Yield Percentage: 1.30%
+BNT Yield Pledged Usd: 135,960.93
+BNT Yield Users Count: 1,440
 ----------------------------------------------------------------------------------------------------
 
 
-BTC:
+EURT:
 
-BTC Yield Users Count: 27,668
-BTC Yield Pledged Usd: 216,211,623.68
-BTC Highest Yield Percentage: 9%
-BTC Current Premium Yield Percentage: 2.75%
-BTC Current Standard Yield Percentage: 1.38%
-BTC Average Yield Percentage: 3.26%
-----------------------------------------------------------------------------------------------------
-
-
-ETH:
-
-ETH Yield Users Count: 36,966
-ETH Yield Pledged Usd: 314,412,254.95
-ETH Highest Yield Percentage: 18.03%
-ETH Current Premium Yield Percentage: 4.25%
-ETH Current Standard Yield Percentage: 2.12%
-ETH Average Yield Percentage: 4.56%
-----------------------------------------------------------------------------------------------------
-
-
-BNB:
-
-BNB Current Premium Yield Percentage: 4%
-BNB Highest Yield Percentage: 10.50%
-BNB Current Standard Yield Percentage: 2%
-BNB Average Yield Percentage: 6.19%
-BNB Yield Pledged Usd: 19,380,840.19
-BNB Yield Users Count: 8,825
-----------------------------------------------------------------------------------------------------
-
-
-USDC:
-
-USDC Yield Users Count: 15,403
-USDC Yield Pledged Usd: 174,197,724.33
-USDC Highest Yield Percentage: 37.55%
-USDC Current Premium Yield Percentage: 7.50%
-USDC Current Standard Yield Percentage: 3.75%
-USDC Average Yield Percentage: 8.10%
+EURT Yield Pledged Usd: 5,128,425.62
+EURT Current Premium Yield Percentage: 2.80%
+EURT Highest Yield Percentage: 11%
+EURT Current Standard Yield Percentage: 1.40%
+EURT Average Yield Percentage: 2.80%
+EURT Yield Users Count: 2,037
 ----------------------------------------------------------------------------------------------------
 
 
 USDT:
 
-USDT Current Premium Yield Percentage: 7.50%
-USDT Highest Yield Percentage: 10%
-USDT Current Standard Yield Percentage: 3.75%
-USDT Average Yield Percentage: 8.10%
-USDT Yield Pledged Usd: 6,210,627.12
-USDT Yield Users Count: 1,568
+USDT Current Premium Yield Percentage: 2.40%
+USDT Highest Yield Percentage: 12.50%
+USDT Current Standard Yield Percentage: 1.20%
+USDT Average Yield Percentage: 2.57%
+USDT Yield Pledged Usd: 4,423,709.64
+USDT Yield Users Count: 2,695
+USDT Pistargate Current Premium Yield Percentage: 5.13%
+USDT Pistargate Highest Yield Percentage: 7.81%
+USDT Pistargate Current Standard Yield Percentage: 2.56%
+USDT Pistargate Average Yield Percentage: 4.81%
+----------------------------------------------------------------------------------------------------
+
+
+GHST:
+
+GHST Current Premium Yield Percentage: 6%
+GHST Highest Yield Percentage: 10%
+GHST Current Standard Yield Percentage: 3%
+GHST Average Yield Percentage: 6%
+GHST Yield Pledged Usd: 408,469.56
+GHST Yield Users Count: 2,484
+----------------------------------------------------------------------------------------------------
+
+
+BNB:
+
+BNB Current Premium Yield Percentage: 3.10%
+BNB Highest Yield Percentage: 40.50%
+BNB Current Standard Yield Percentage: 1.55%
+BNB Average Yield Percentage: 3.21%
+BNB Yield Pledged Usd: 13,075,523.10
+BNB Yield Users Count: 12,510
+----------------------------------------------------------------------------------------------------
+
+
+ETH:
+
+ETH Yield Users Count: 44,746
+ETH Yield Pledged Usd: 115,861,510.98
+ETH Highest Yield Percentage: 18.03%
+ETH Current Premium Yield Percentage: 5%
+ETH Current Standard Yield Percentage: 2.50%
+ETH Average Yield Percentage: 4.78%
+----------------------------------------------------------------------------------------------------
+
+
+SOL:
+
+SOL Pisolana Blockchain Current Premium Yield Percentage: 5.50%
+SOL Pisolana Blockchain Highest Yield Percentage: 6.93%
+SOL Pisolana Blockchain Current Standard Yield Percentage: 2.75%
+SOL Pisolana Blockchain Average Yield Percentage: 5.54%
+----------------------------------------------------------------------------------------------------
+
+
+DOT:
+
+DOT Current Premium Yield Percentage: 8%
+DOT Highest Yield Percentage: 20%
+DOT Current Standard Yield Percentage: 4%
+DOT Average Yield Percentage: 8%
+DOT Yield Pledged Usd: 3,500,970.27
+DOT Yield Users Count: 9,452
+----------------------------------------------------------------------------------------------------
+
+
+UST:
+
+UST Current Premium Yield Percentage: 0%
+UST Highest Yield Percentage: 19.50%
+UST Current Standard Yield Percentage: 0%
+UST Average Yield Percentage: 0%
+UST Yield Pledged Usd: 43,098.17
+UST Yield Users Count: 3,417
+----------------------------------------------------------------------------------------------------
+
+
+BUSD:
+
+BUSD Current Premium Yield Percentage: 2.10%
+BUSD Highest Yield Percentage: 3.50%
+BUSD Current Standard Yield Percentage: 1.05%
+BUSD Average Yield Percentage: 2.12%
+BUSD Yield Pledged Usd: 507,097.51
+BUSD Yield Users Count: 190
+BUSD Pistargate Current Premium Yield Percentage: 3.43%
+BUSD Pistargate Highest Yield Percentage: 4.60%
+BUSD Pistargate Current Standard Yield Percentage: 1.72%
+BUSD Pistargate Average Yield Percentage: 3.61%
+----------------------------------------------------------------------------------------------------
+
+
+SUSHI:
+
+Sushi Current Premium Yield Percentage: 4.50%
+Sushi Highest Yield Percentage: 14%
+Sushi Current Standard Yield Percentage: 2.25%
+Sushi Average Yield Percentage: 4.50%
+Sushi Yield Pledged Usd: 354,266.39
+Sushi Yield Users Count: 1,147
+----------------------------------------------------------------------------------------------------
+
+
+AAVE:
+
+AAVE Current Premium Yield Percentage: 5.90%
+AAVE Highest Yield Percentage: 7.50%
+AAVE Current Standard Yield Percentage: 2.95%
+AAVE Average Yield Percentage: 5.90%
+AAVE Yield Pledged Usd: 2,871,245.02
+AAVE Yield Users Count: 6,554
+----------------------------------------------------------------------------------------------------
+
+
+CHSB:
+
+CHSB Price Usd: 0.24
+CHSB Price24H Change Percentage: -4.39%
+CHSB Circulating Supply Tokens: 80,967,574
+CHSB Yield Apy: 18.89
+CHSB Yield Users Count: 89,573
+CHSB Yield Pledged Tokens: 407,938,860
+CHSB In Yield Percentage: 57.93%
+CHSB Yield Pledged Usd: 100,105,458.31
+CHSB Stacked Tokens: 197,658,523
+CHSB To Burn Usd: 2,286,912.48
+CHSB Burned Tokens: 14,016,194.29
+CHSB Stacked Percentage: 28.07%
+CHSB Highest Yield Percentage: 32.52%
+CHSB Current Premium Yield Percentage: 18.89%
+CHSB Current Standard Yield Percentage: 9.45%
+CHSB Average Yield Percentage: 16.59%
+CHSB To Burn Tokens: 9,441,678.95
+CHSB Stacked Usd: 47,875,779
+CHSB Burned Usd: 3,394,926
+CHSB In Buy Back Pool Tokens: 3,622,616.53
+CHSB In Buy Back Pool Usd: 1,567,328.10
+CHSB In Buy Back Pool Percentage: 0.51%
+CHSB Highest Yield Percentage V2: 18.91%
 ----------------------------------------------------------------------------------------------------
 
 
 XRP:
 
-XRP Yield Pledged Usd: 20,361,672.30
-XRP Current Premium Yield Percentage: 1.50%
-XRP Highest Yield Percentage: 4.25%
-XRP Current Standard Yield Percentage: 0.75%
-XRP Average Yield Percentage: 2.21%
-XRP Yield Users Count: 5,496
+XRP Yield Pledged Usd: 6,614,567.57
+XRP Current Premium Yield Percentage: 0.10%
+XRP Highest Yield Percentage: 9%
+XRP Current Standard Yield Percentage: 0.05%
+XRP Average Yield Percentage: 0.10%
+XRP Yield Users Count: 8,661
+----------------------------------------------------------------------------------------------------
+
+
+ADA:
+
+ADA Picardano Blockchain Current Premium Yield Percentage: 4%
+ADA Picardano Blockchain Highest Yield Percentage: 4.68%
+ADA Picardano Blockchain Current Standard Yield Percentage: 2%
+ADA Picardano Blockchain Average Yield Percentage: 3.97%
+----------------------------------------------------------------------------------------------------
+
+
+SAND:
+
+SAND Pithe Sandbox Current Premium Yield Percentage: 10.72%
+SAND Pithe Sandbox Highest Yield Percentage: 13.23%
+SAND Pithe Sandbox Current Standard Yield Percentage: 5.36%
+SAND Pithe Sandbox Average Yield Percentage: 11.83%
+----------------------------------------------------------------------------------------------------
+
+
+USDC:
+
+USDC Yield Users Count: 9,481
+USDC Yield Pledged Usd: 39,332,681.47
+USDC Highest Yield Percentage: 37.55%
+USDC Current Premium Yield Percentage: 1.50%
+USDC Current Standard Yield Percentage: 0.75%
+USDC Average Yield Percentage: 1.51%
+USDC Pistargate Current Premium Yield Percentage: 3.24%
+USDC Pistargate Highest Yield Percentage: 5.82%
+USDC Pistargate Current Standard Yield Percentage: 1.62%
+USDC Pistargate Average Yield Percentage: 3.61%
+----------------------------------------------------------------------------------------------------
+
+
+BTC:
+
+BTC Yield Users Count: 21,506
+BTC Yield Pledged Usd: 41,533,181.60
+BTC Highest Yield Percentage: 9%
+BTC Current Premium Yield Percentage: 0.10%
+BTC Current Standard Yield Percentage: 0.05%
+BTC Average Yield Percentage: 0.10%
+BTC Pialpaca Finance Current Premium Yield Percentage: 0.69%
+BTC Pialpaca Finance Highest Yield Percentage: 1.21%
+BTC Pialpaca Finance Current Standard Yield Percentage: 0.34%
+BTC Pialpaca Finance Average Yield Percentage: 0.96%
+----------------------------------------------------------------------------------------------------
+
+
+LINK:
+
+LINK Current Premium Yield Percentage: 1%
+LINK Highest Yield Percentage: 4.50%
+LINK Current Standard Yield Percentage: 0.50%
+LINK Average Yield Percentage: 1%
+LINK Yield Pledged Usd: 1,940,605.95
+LINK Yield Users Count: 4,171
+----------------------------------------------------------------------------------------------------
+
+
+MC:
+
+MC Current Premium Yield Percentage: 15%
+MC Highest Yield Percentage: 30%
+MC Current Standard Yield Percentage: 7.50%
+MC Average Yield Percentage: 15%
+MC Yield Pledged Usd: 809,461.44
+MC Yield Users Count: 2,360
+----------------------------------------------------------------------------------------------------
+
+
+DAI:
+
+DAI Current Premium Yield Percentage: 1.50%
+DAI Highest Yield Percentage: 9.50%
+DAI Current Standard Yield Percentage: 0.75%
+DAI Average Yield Percentage: 1.51%
+DAI Yield Pledged Usd: 268,393.29
+DAI Yield Users Count: 618
+----------------------------------------------------------------------------------------------------
+
+
+CAKE:
+
+CAKE Current Premium Yield Percentage: 5.50%
+CAKE Highest Yield Percentage: 25%
+CAKE Current Standard Yield Percentage: 2.75%
+CAKE Average Yield Percentage: 12.43%
+CAKE Yield Pledged Usd: 1,254,756.55
+CAKE Yield Users Count: 2,148
+----------------------------------------------------------------------------------------------------
+
+
+MATIC:
+
+Matic Current Premium Yield Percentage: 5.50%
+Matic Highest Yield Percentage: 15%
+Matic Current Standard Yield Percentage: 2.75%
+Matic Average Yield Percentage: 5.50%
+Matic Yield Pledged Usd: 8,105,398.84
+Matic Yield Users Count: 11,596
+----------------------------------------------------------------------------------------------------
+
+
+AVAX:
+
+AVAX Current Premium Yield Percentage: 3.50%
+AVAX Highest Yield Percentage: 11%
+AVAX Current Standard Yield Percentage: 1.75%
+AVAX Average Yield Percentage: 3.95%
+AVAX Yield Pledged Usd: 1,217,451.45
+AVAX Yield Users Count: 3,771
+----------------------------------------------------------------------------------------------------
+
+
+CRV:
+
+CRV Current Premium Yield Percentage: 2.10%
+CRV Highest Yield Percentage: 10%
+CRV Current Standard Yield Percentage: 1.05%
+CRV Average Yield Percentage: 2.10%
+CRV Yield Pledged Usd: 449,145.80
+CRV Yield Users Count: 2,127
 ----------------------------------------------------------------------------------------------------
 
 
 OTHERS:
 
-Weekly Volume Usd: 134,663,859
-Total Yield Pledged Usd: 1,038,567,313.02
-Total Aum Usd: 1,664,162,988
-Premium Users Count: 19,442
-Premium Users Last Week Count: 706
-Verified Users Count: 462,198
-Onboarding Median Time Minutes: 1.92
-Total Supply Burned Percentage: 0.97%
-Community Premium Users Count: 13,891
-Total Yield Earned Usd: 27,586,208.24
-Total Safety Net Usd: 6,236,572.95
+Weekly Volume Usd: 43,188,962
+Total Yield Pledged Usd: 348,117,378.10
+Total Aum Usd: 693,508,434
+Premium Users Count: 37,639
+Premium Users Last Week Count: 395
+Verified Users Count: 681,783
+Onboarding Median Time Minutes: 1.88
+Total Supply Burned Percentage: 1.99%
+Community Premium Users Count: 26,115
+Total Yield Earned Usd: 64,644,400.69
+Total Safety Net Usd: 6,404,761.01
+Number Of Transactions To Buy Back Pool: 47
+BUY Back Yield Fees Percentage: 50%
+Generation Premium Users Count: 1,402
+PAR Yield Users Count: 21
+ENS Current Premium Yield Percentage: 0.10%
+ENS Highest Yield Percentage: 3%
+ENS Current Standard Yield Percentage: 0.05%
+ENS Average Yield Percentage: 0.10%
+ENS Yield Pledged Usd: 162,554.76
+ENS Yield Users Count: 474
+Yield Boost Genesis: 2
+Yield Boost Generation: 2
+Yield Boost Pioneer: 1.75
+Yield Boost Community: 1.50
+Yield Boost Explorer: 1.25
+Yield Boost Standard: 1
+Pioneern Premium Users Count: 776
+Explorer Premium Users Count: 3,903
+Pioneer Premium Users Count: 1,225
+Community Index: 6.50
 ----------------------------------------------------------------------------------------------------
